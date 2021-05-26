@@ -4,7 +4,7 @@ export class RestartButton {
   }
 
   preload() {
-    this.relatedScene.load.image('button2', 'images/replay.png');
+    this.relatedScene.load.image('button2', '/JocPhaser/images/replay.png');
   }
 
   create() {
