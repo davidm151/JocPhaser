@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a802377-5f2c-400d-9ee0-580d0249f80a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../MP9/laravelServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MP9/laravelServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game2.js" beforeDir="false" afterPath="$PROJECT_DIR$/game2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +13,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1siJiMusG1QTAdtmUp62RsnfiUJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -27,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MP9/laravelServer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,6 +62,7 @@
       <workItem from="1621674831615" duration="3000" />
       <workItem from="1621929722436" duration="42000" />
       <workItem from="1622051114087" duration="1985000" />
+      <workItem from="1622054040319" duration="513000" />
     </task>
     <servers />
   </component>
