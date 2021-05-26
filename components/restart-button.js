@@ -10,12 +10,6 @@ export class RestartButton {
   create() {
     this.startButton2 = this.relatedScene.add.image(400, 230, 'button2').setInteractive();
 
-    this.startButton2.on('pointerover', () => {
-      this.startButton2.setFrame(1);
-    });
-    this.startButton2.on('pointerout', () => {
-      this.startButton2.setFrame(0);
-    });
     this.startButton2.on('pointerdown', () => {
       this.relatedScene.scene.start('game');
     });
