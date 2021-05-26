@@ -4,7 +4,7 @@ export class PlayButton {
   }
 
   preload() {
-    this.relatedScene.load.spritesheet('button', '../images/play.png', { frameWidth: 128, frameHeight: 128 });
+    this.relatedScene.load.image('button', '../images/play.png', { frameWidth: 128, frameHeight: 128 });
   }
 
   create() {
