@@ -4,7 +4,7 @@ export class PlayButton {
   }
 
   preload() {
-    this.relatedScene.load.image('button', '../images/play.png');
+    this.relatedScene.load.image('button', '/images/play.png');
   }
 
   create() {
