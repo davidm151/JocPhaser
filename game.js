@@ -99,6 +99,7 @@ export class Game extends Phaser.Scene {
   {
     if(this.vides==0){
       this.cameras.main.shake(500);
+      this.musica.stop();
      this.time.delayedCall(1000,this.movimentCamera,[this.scene],this);
     }
     const velocitat = 350;
@@ -154,7 +155,7 @@ export class Game extends Phaser.Scene {
   }
   accioPorta (player, perill)
   {
-    this.scene.start('game2',{ vides: this.vides,score: this.score });
+    this.scene.start('game2',{ vides: this.vides,score: this.score, musica: this.musica });
   }
   movimentCamera (s)
   {
