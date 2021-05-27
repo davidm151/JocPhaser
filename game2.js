@@ -7,6 +7,7 @@ export class Game2 extends Phaser.Scene {
     this.score = data.score;
     this.scoreText;
     this.vides=data.vides;
+    this.musica=data.musica;
   }
 
   preload() {
@@ -86,6 +87,7 @@ export class Game2 extends Phaser.Scene {
   {
     if(this.vides==0){
         this.cameras.main.shake(500);
+        this.musica.stop();
         this.time.delayedCall(1000,this.movimentCamera,[this.scene],this);
 
     }
@@ -154,6 +156,7 @@ export class Game2 extends Phaser.Scene {
       emit.on=false;
   }
   win(){
+      this.musica.stop();
       this.scene.start('win');
   }
 }
