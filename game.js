@@ -21,6 +21,7 @@ export class Game extends Phaser.Scene {
     this.load.spritesheet('dude', 'images/personatge.png', { frameWidth: 57, frameHeight: 62 });
     this.load.audio('scoin', 'sorolls/coin.ogg');
     this.load.audio('mal', 'sorolls/mal.ogg');
+    this.load.audio('musica', 'sorolls/musica.ogg');
     this.load.image('moneda', 'images/moneda.png');
     this.load.image('porta', 'images/porta.png');
     this.load.image('enemic', 'images/spider.png');
@@ -87,6 +88,9 @@ export class Game extends Phaser.Scene {
 
     this.scoin = this.sound.add('scoin');
     this.mal = this.sound.add('mal');
+    this.musica = this.sound.add('musica');
+
+    this.musica.play();
 
     this.cursors = this.input.keyboard.createCursorKeys();
   }
